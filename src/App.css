@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.topmenu-container {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  background-color: #fff;
+}
+
+.input-container {
+  margin: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.input-container label {
+  margin: 0 10px;
+}
+
+.input-container input {
+  height: 40px;
+  width: 600px;
+}
+
+.input-container button {
+  height: 45px;
+  width: 100px;
+}
+
+.app-view {
+  display: flex;
+  flex-flow: wrap;
+  height: calc(100vh - 140px);
+}
+
+.topicmenu-container {
+  width: 200px;
+  height:auto;
+  background-color: pink;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.topicmenu-element {
+  width: 170px;
+  height: 170px;
+  background-color: red;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.topicmenu-inner {
+  padding: 20px 0 0 0;
+}
+
+.middle-container {
+  width: calc(100% - 200px);
+  height: auto;
+  background-color: gray;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-flow: wrap;
+  display: flex;
+}
+
+.middle-inner {
+  padding: 20px 0;
+}
+
+.word-element {
+  display: inline-flex;
+  width:200px;
+  height: 200px;
+  background-color: purple;
+  margin: 0 10px 10px 10px;
+}
+
+.img-button:hover {
+  cursor: pointer;
+  background-color: teal;
+  box-sizing: border-box;
+}
