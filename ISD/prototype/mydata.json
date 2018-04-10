@@ -10,7 +10,7 @@
     
     
   {"id":"8","name":"kino","sound":"kino","image":"kohad/kino","category":"places"},
-  {"id":"9","name":"kohvik","sound":"kohvik","image":"kohad/kohvik","category":"places"},{"id":"10","name":"lift","sound":"lift","image":"kohad/lift","category":"places"},{"id":"11","name":"garaaz","sound":"garaaz","image":"kohad/garaaz","category":"places"},{"id":"12","name":"õu","sound":"ou","image":"kohad/ou","category":"places"}
+  {"id":"10","name":"lift","sound":"lift","image":"kohad/lift","category":"places"},{"id":"11","name":"garaaz","sound":"garaaz","image":"kohad/garaaz","category":"places"},{"id":"12","name":"õu","sound":"ou","image":"kohad/ou","category":"places"}
     
   
 ]

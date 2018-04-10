@@ -16,21 +16,33 @@ $(function() {
       html += '</div></div></div>';
     });
     $('#wordcontainer').html(html);
+    //hack
+    $(".category-filter").addClass("hide")
+    $("#places.category-filter").removeClass("hide");
     $(".word-element").click(function(){
         $('#kuulatekst').val($('#kuulatekst').val()+$(this).attr("value")+" ");
     });
   });
 });
 
+$(function(){
+  $('#clearInput').click(function(){
+    $('#kuulatekst').val(' ');
+  });
+});
 
 $(function(){
   $('#places.topicmenu-element').click(function(){
     $(".category-filter").addClass("hide");
+    $(".middle-container,.topmenu-container").addClass("places-bg");
+    $(".middle-container,.topmenu-container").removeClass("animals-bg");
     $("#places.category-filter").removeClass("hide");
   });
 
   $('#animals.topicmenu-element').click(function(){
     $(".category-filter").addClass("hide");
+    $(".middle-container,.topmenu-container").addClass("animals-bg");
+      $(".middle-container,.topmenu-container").removeClass("places-bg");
     $("#animals.category-filter").removeClass("hide");
   });
 
